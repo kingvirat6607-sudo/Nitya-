@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "36201175"))
 API_HASH = getenv("API_HASH","e6c39b59dd271404d0f31884371ea24c")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("9011543578:AAHofWO1ktyWkto7GJdt1rOYFIvaPyTZW28")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
